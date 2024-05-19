@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>UniMetrics | Area Page</title>
+
+  <!-- Fabicon Insert || Sigma Symbol -->
+  <link rel="icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Greek_uc_sigma.svg/1200px-Greek_uc_sigma.svg.png">
+  <link rel="stylesheet" href="CS Files/styles.css">
+  <!-- Icons Page by FontAwesome -->
+  <script src="https://kit.fontawesome.com/79d494aa96.js" crossorigin="anonymous"></script>
+
+  <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>Unimetrics</h2>
+      <ul>
+        <!-- Home Page -->
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <!-- Angle Page -->
+        <li><a href="Angle.html"><i class="fa fa-angle-right"></i> Angle</a></li>
+        <!-- Area  Page -->
+        <li><a href="Area.html"><i class="fa-solid fa-road"></i> Area</a></li>
+        <!-- Energy Page -->
+        <li><a href="Energy.html"><i class="fas fa-atom"></i>Energy</a></li>
+        <!-- Length Page -->
+        <li><a href="Length.html"><i class="fa-solid fa-ruler-combined"></i> Length</a></li>
+        <!-- Mass Page -->
+        <li><a href="Mass.html"><i class="fa fa-balance-scale"></i> Mass</a></li>
+        <!-- Pressure Page -->
+        <li><a href="Pressure.html"><i class="fa-solid fa-wind"></i> Pressure</a></li>
+        <!-- Speed Page -->
+        <li><a href="Speed.html"><i class="fa-solid fa-gauge-high"></i> Speed</a></li>
+        <!-- Temperature Page -->
+        <li><a href="Temperature.html"><i class="fa-solid fa-temperature-high"></i> Temperature</a></li>
+        <!-- Time Page -->
+        <li><a href="Time.html"><i class="fa-regular fa-clock"></i> Time</a></li>
+        <!-- Volume Page -->
+        <li><a href="Volume.html"><i class="fa-solid fa-flask"></i> Volume</a></li>
+        <!-- Contact Page Info Icon -->
+        <li><a href="Contact Us.html" fa-solid fa-square-info> Contact Us</i></a></li>
+        <!-- TCS Page -->
+        <li><a href="Terms&Conditions.html"><i class=""></i> Terms and Conditions</a></li>
+        <!-- About Us Page -->
+        <li><a href="AboutUs.html"><i class=""></i> About Us</a></li>
+      </ul>
+      <div class="social_media">
+        <!-- Social Links -->
+        <a href=https://www.instagram.com /><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></li></a>
+      </div>
+    </div>
+
+    <div class="main_content">
+      <div class="header">Area Page | UniMetrics - Universal Metric Converter.</div> <!-- Watch out-->
+      <div class="info">
+
+        <h1 class="converter-title"><br />Area Metric Converter<br /><br /></h1>
+
+
+        <div class="interaction-box">
+
+          <input type="number" min="0" step="any" placeholder="Input{1m²...}" id="Input"
+            onkeydown="if (event.keyCode === 189 || event.keyCode === 109) {event.preventDefault();}">
+
+          <span>=</span>
+
+          <input id="Result" type="text" placeholder="Result {10.764′...}" readonly>
+
+          <br />
+          <select id="InputType">
+            <option value="SquareMeter">SquareMeter (m²)</option>
+            <option value="SquareKilometer">SquareKilometer (Km²)</option>
+            <option value="SquareFeet">Square Feet (ft²)</option>
+            <option value="Hectare">Hectare (ha)</option>
+            <option value="Acre">Acre (ac)</option>
+          </select>
+
+          <span>=</span>
+
+          <select id="ResultType">
+            <option value="SquareMeter">SquareMeter (m²)</option>
+            <option value="SquareKilometer">SquareKilometer (Km²)</option>
+            <option value="SquareFeet">Square Feet (ft²)</option>
+            <option value="Hectare">Hectare (ha)</option>
+            <option value="Acre">Acre (ac)</option>
+          </select>
+
+        </div>
+        <script src="JS Files/areaScript.js"></script> <!-- Position End may need to change -->
+
+        <br></br>
+
+        <div id="HistoryOfAreaMetrcis">
+          <h1><br />History of area metrics</h1><br />
+        </div>
+        <h2>Area measurements</h2><br />
+
+        <h3>Square Feet</h3>
+        Symbol (sq ft) or (ft²) this metric used to describe architecture or real estate, metric is often visualised
+        with as a square with a line or slash through it.
+        Square foot metric is used mainly in the USA, Canada and the UK mainly as a <br />measurement of area/distance.
+        Square foot is defined as the area of a square with sides 1 ft in length.<br /><br />
+
+        <h3>Square Meters</h3>
+        A measurement of area equal to one meter length by one meter width.<br />
+
+        To calculate square meters, you need to know the length and width of the square or rectangle. This is also
+        referred to as the area of the shape. The formula for calculating square meters is length x width =
+        m<sup>2</sup>.<br /><br />
+
+        For example, if your square has a length of 16 meters and a width of 8 meters, then 16 x 8 = 128
+        m<sup>2</sup><br /><br />
+
+        <h3>Square Meters to Square Feet Formula</h3>
+        1. Sq Meter * 10.764 = Sq Feet <br /><br />
+
+        <h3>Square Feet to Square Meters Formula</h3>
+        1. Sq Feet / 10.764 = Sq Meters <br /><br />
+      </div>
+
+
+      <!-- Hard Code Format Footer -->
+
+      <!-- TCS -->
+      <div class="footer">
+        <br />
+        <h2>Unimetrics Terms and Conditions </h2><br />
+        Unimetric's reserve rights to the site, the website maintained by Unimetric Ltd. @2022-2023.<br /><br />Our
+        terms & conditions apply and can be found here!
+
+        We at Unimetric aim to deliver services that excceed expectations, our team here at Unimetric HQ try their best
+        to ensure that the accuracy of the metric calculators & <br />conversions provided correctly.<br /><br />However
+        if you ,as, the USER notice any ERRORS on this please report it via :<br />
+        - Social Links <br />
+        - Filling Contact Form {30s Appx.} <br />
+        - Contact Our <a href="https://backup-project.moahmed9.repl.co/Contact%20Us.html">Supervisor </a>
+      </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UniMetrics | Volume Page</title>
+  <!-- Fabicon Insert -->
+  <link rel="icon"   href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Greek_uc_sigma.svg/1200px-Greek_uc_sigma.svg.png">
+	<link rel="stylesheet" href="CS Files/styles.css">
+	<script src="https://kit.fontawesome.com/79d494aa96.js" crossorigin="anonymous"></script>
+
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+</style>
+  
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="sidebar">
+      <h2>Unimetrics</h2>
+          <ul>
+            <!-- Home Page -->
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <!-- Angle Page -->
+            <li><a href="Angle.html"><i class="fa fa-angle-right"></i> Angle</a></li>
+            <!-- Area  Page -->
+            <li><a href="Area.html"><i class="fa-solid fa-road"></i> Area</a></li>
+            <!-- Energy Page -->
+            <li><a href="Energy.html"><i class="fas fa-atom"></i>Energy</a></li>
+            <!-- Length Page -->
+            <li><a href="Length.html"><i class="fa-solid fa-ruler-combined"></i> Length</a></li>
+            <!-- Mass Page -->
+            <li><a href="Mass.html"><i class="fa fa-balance-scale"></i> Mass</a></li>
+            <!-- Pressure Page -->
+            <li><a href="Pressure.html"><i class="fa-solid fa-wind"></i> Pressure</a></li>
+            <!-- Speed Page -->
+            <li><a href="Speed.html"><i class="fa-solid fa-gauge-high"></i> Speed</a></li>
+            <!-- Temperature Page -->
+            <li><a href="Temperature.html"><i class="fa-solid fa-temperature-high"></i> Temperature</a></li>
+            <!-- Time Page -->
+            <li><a href="Time.html"><i class="fa-regular fa-clock"></i> Time</a></li>
+            <!-- Volume Page -->
+            <li><a href="Volume.html"><i class="fa-solid fa-flask"></i> Volume</a></li>
+            <!-- Contact Page Info Icon -->
+            <li><a href="Contact Us.html"fa-solid fa-square-info> Contact Us</i></a></li>
+            <!-- TCS Page -->
+            <li><a href="Terms&Conditions.html"><i class=""></i> Terms and Conditions</a></li>
+            <!-- About Us Page -->
+            <li><a href="AboutUs.html"><i class=""></i> About Us</a></li>
+        </ul> 
+    
+        <div class="social_media">
+            <!-- Social Links -->
+            <a href=https://www.instagram.com/><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></li></a>
+        </div>
+    
+  </div>
+        <div class="main_content">
+          <div class="header">Volume Page | UniMetrics - Universal Metric Converter.</div> 
+            <div class="info">
+                
+              <h1 class="converter-title"><br/>Volume Metric Converter<br/><br/></h1>   
+
+          <div class="interaction-box">
+            
+                <input type="number" min="0" step="any" placeholder="Input {1m³...}" id="Input" onkeydown="if (event.keyCode === 189 || event.keyCode === 109) {event.preventDefault();}">
+            
+                <span>=</span>
+                
+                <input id="Result" type="text" placeholder="Result {1,000L...}" readonly>
+                <br>
+          
+                <select id="InputType">
+                  <option value="CubicMeter">Cubic Meter (M³)</option>
+                  <option value="CubicCentiMeter">Cubic Centi Meter (cm³)</option>
+                  <option value="Liters">Liters (L)</option>
+                  <option value="Pints">Pints (PT)</option>
+                  <option value="Gallons">Gallons (GAL)</option>
+                  <option value="Millilitres">Millilitres (mlL)</option>
+                </select>
+
+                <span>=</span>
+              
+                <select id="ResultType">
+                  <option value="CubicMeter">Cubic Meter (M³)</option>
+                  <option value="CubicCentiMeter">Cubic Centi Meter (cm³)</option>
+                  <option value="Liters">Liters (L)</option>
+                  <option value="Pints">Pints (PT)</option>
+                  <option value="Gallons">Gallons (GAL)</option>
+                  <option value="Millilitres">Millilitres (mlL)</option>
+                </select>
+          </div>
+        
+                <script src="JS Files/volumeScript.js"></script>
+              
+          <br></br><br/>
+          <!--Ignore DIV-->
+          <div class="vol-HOVM"><h1>History of volume metrics</h1></div>
+          <p>
+          The modern day metric system defines units of volume based on the cube metric. The ancient Egyptain                system of measuring volume and capacity used a similar method whereby sphere where used instead. In                comparision to the old system one cubit would be eqivalent to 1/2 a <i>hekat</i>. Intrestingly this                corssponds to their Egyptain work done with pttery vessels <br/>
+            <img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3314674/bin/pone.0033895.g004.jpg" 
+            alt="Phoenician globular jug from Megiddo, with max diameter of 29.2 and vol of .53 <i>hekat</i>"                  id="vol-Hekat"><br /><br/>
+            <h1>Volume Formulas</h1><br/>
+            Liters to Pints, Liters to Gallons, Liters to Millilters,  
+            <br/>
+          </p>
+            </div>
+                
+          <!-- TCS -->
+      <br/>
+      <div class="footer">
+        <h2>Unimetrics Terms and Conditions </h2><br />
+       Unimetric's reserve rights to the site, the website maintained by Unimetric Ltd. @2022-2023.<br/><br/>Our terms & conditions apply and can be found here!
+
+      We at Unimetric aim to deliver services that excceed expectations, our team here at Unimetric HQ try their best to ensure that the accuracy of the metric calculators & <br/>conversions provided correctly.<br /><br />However if you ,as, the USER notice any ERRORS on this please report it via :<br/>
+        - Social Links <br/>
+        - Filling Contact Form {30s Appx.}   
+      </div>
+    </div>
+</div>
+    
+
+
+
+
+</body>
+</html>
+
+
+
+
